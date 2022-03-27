@@ -8,6 +8,7 @@ import Header from 'components/Header';
 import Portfolio from 'components/Portfolio';
 import Skills from 'components/Skills';
 import Nav from 'components/Nav';
+import Contact from 'components/Contact';
 
 const HomePage: NextPage = () => {
   return (
@@ -25,6 +26,7 @@ const HomePage: NextPage = () => {
         <Experience />
         <Education />
         <Skills />
+        <Contact />
       </Box>
     </Box>
   );

@@ -10,9 +10,13 @@ import {
   PopoverBody,
   Text,
   VStack,
+  Link as NextLink,
+  Flex,
+  ListIcon,
 } from '@chakra-ui/react';
 import ThemeToggleButton from 'components/ThemeToggleButton';
 import Link from 'next/link';
+import { IoMailSharp } from 'react-icons/io5';
 
 function Nav() {
   return (
@@ -31,7 +35,7 @@ function Nav() {
         <Portal>
           <PopoverContent w="100px">
             <PopoverArrow />
-            <PopoverBody >
+            <PopoverBody>
               <VStack spacing={1}>
                 <Link href="/">
                   <a>
@@ -43,6 +47,12 @@ function Nav() {
                     <Text fontSize="sm">Portfolio</Text>
                   </a>
                 </Link>
+                <NextLink
+                  href="mailto:voncarcha@gmail.com"
+                  _hover={{ textDecoration: 'none' }}
+                >
+                  <Text fontSize="sm">Contact</Text>
+                </NextLink>
               </VStack>
             </PopoverBody>
           </PopoverContent>
