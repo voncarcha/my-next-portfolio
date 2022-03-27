@@ -1,15 +1,11 @@
-import Head from 'next/head';
-import type { NextPage } from 'next';
 import { Box } from '@chakra-ui/react';
-import About from 'components/About';
-import Education from 'components/Education';
-import Experience from 'components/Experience';
+import Head from 'next/head';
 import Header from 'components/Header';
 import Portfolio from 'components/Portfolio';
-import Skills from 'components/Skills';
+import type { NextPage } from 'next';
 import Nav from 'components/Nav';
 
-const HomePage: NextPage = () => {
+const PortfolioPage: NextPage = () => {
   return (
     <Box as="main">
       <Head>
@@ -20,14 +16,10 @@ const HomePage: NextPage = () => {
       <Box px={{ base: 4, md: 6 }} py={5} maxW="700px" w="100%" m="auto">
         <Nav />
         <Header />
-        <About />
         <Portfolio />
-        <Experience />
-        <Education />
-        <Skills />
       </Box>
     </Box>
   );
 };
 
-export default HomePage;
+export default PortfolioPage;

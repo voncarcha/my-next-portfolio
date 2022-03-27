@@ -756,15 +756,20 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/aleo@^4.5.5":
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/aleo/-/aleo-4.5.5.tgz#0a9a63096dbeb0ebdaf6ccd2cccb4b40581655dd"
+  integrity sha512-XLRF4bhvbv4ueEgFGl8c/GGSVZew3/YleHJduTB1+AhvAT9MHXpVDM69aFaeK7PuWsdJpWm33kFYY7SX3Gz8bQ==
+
 "@fontsource/montserrat@^4.5.7":
   version "4.5.7"
   resolved "https://registry.yarnpkg.com/@fontsource/montserrat/-/montserrat-4.5.7.tgz#5fa342958655d3309eeae552a409f75a5453173f"
   integrity sha512-eROpR2P7faJpXtjPx7XGESSNJXT6zUKUnLuUalR8YRpAi7Z4Hg+++LSTRX2GItQDaQliScGapTW10cYunhQDiw==
 
-"@fontsource/open-sans@^4.5.8":
-  version "4.5.8"
-  resolved "https://registry.yarnpkg.com/@fontsource/open-sans/-/open-sans-4.5.8.tgz#31f727353e89ce886e1076bd58536834e0778fda"
-  integrity sha512-3b94XDdRLqL7OlE7OjWg/4pgG825Juw8PLVEDm6h5pio0gMU89ICxfatGxHsBxMGfqad+wnvdmUweZWlELDFpQ==
+"@fontsource/oswald@^4.5.7":
+  version "4.5.7"
+  resolved "https://registry.yarnpkg.com/@fontsource/oswald/-/oswald-4.5.7.tgz#72392434c471e00e6a63874120b22d0108051893"
+  integrity sha512-4ogmt9aQSTeJvnzzfeHvKtGFa+7qstZiBfOJuod7NkI610xajSExUllYaCqElQesel3IFCZLmybTyA3z/9aOoA==
 
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.5"

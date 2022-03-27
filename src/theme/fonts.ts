@@ -1,6 +1,6 @@
 const fonts = {
-  heading: 'Montserrat, sans-serif',
-  body: 'Open Sans, sans-serif',
+  heading: 'Oswald, serif',
+  body: 'Montserrat, sans-serif',
 };
 
 export default fonts;
