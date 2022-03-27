@@ -28,7 +28,7 @@ function Portfolio() {
       ) : (
         <Flex justifyContent="center" mt={4}>
           <Button onClick={() => push('/')} variant="outline">
-            Go Back
+            Go back
           </Button>
         </Flex>
       )}

@@ -15,7 +15,7 @@ import {
 } from '@chakra-ui/react';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import { IPortfolio, PORTFOLIO } from 'common/constants';
+import { IPortfolio } from 'common/constants';
 
 function Project({ item }: { item: IPortfolio }) {
   const { push } = useRouter();
