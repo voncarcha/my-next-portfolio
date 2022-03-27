@@ -1,5 +1,5 @@
 import { Box, Text, GridItem, useColorModeValue } from '@chakra-ui/react';
-import { IPortfolio } from 'common/types';
+import { IPortfolio } from 'common/constants';
 import Image from 'next/image';
 import Link from 'next/link';
 
