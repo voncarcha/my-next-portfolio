@@ -1,6 +1,6 @@
 import { Box, Text, Heading } from '@chakra-ui/react';
 
-function About() {
+const About: React.FC = () => {
   return (
     <Box mt={5} mb={8}>
       <Heading variant="section-title" mb={6}>
@@ -13,6 +13,6 @@ function About() {
       </Text>
     </Box>
   );
-}
+};
 
 export default About;

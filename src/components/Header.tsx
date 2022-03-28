@@ -1,7 +1,7 @@
 import { Box, Heading } from '@chakra-ui/react';
 import Logo from './Logo';
 
-function Header() {
+const Header: React.FC = () => {
   return (
     <Box mb={8}>
       <Logo />
@@ -18,6 +18,6 @@ function Header() {
       </Heading>
     </Box>
   );
-}
+};
 
 export default Header;

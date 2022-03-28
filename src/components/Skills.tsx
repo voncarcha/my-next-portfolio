@@ -1,6 +1,6 @@
 import { Box, Heading, Flex, Tag } from '@chakra-ui/react';
 
-function Skills() {
+const Skills: React.FC = () => {
   return (
     <Box mt={5} mb={8}>
       <Heading variant="section-title" mb={6}>
@@ -64,6 +64,6 @@ function Skills() {
       </Flex>
     </Box>
   );
-}
+};
 
 export default Skills;

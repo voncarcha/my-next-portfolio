@@ -1,10 +1,10 @@
 import { Box, Text, Heading, Flex } from '@chakra-ui/react';
 
-function Experience() {
+const Employment: React.FC = () => {
   return (
     <Box mt={5} mb={8}>
       <Heading variant="section-title" mb={6}>
-        Work Experience
+        Employment
       </Heading>
       <Flex flexDirection={{ base: 'column', sm: 'row' }} mb={2}>
         <Box w="120px" mr={4}>
@@ -32,6 +32,6 @@ function Experience() {
       </Flex>
     </Box>
   );
-}
+};
 
-export default Experience;
+export default Employment;

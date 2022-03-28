@@ -1,14 +1,15 @@
-export interface IPortfolio {
+export interface IWork {
   slug: string;
   title: string;
   thumb: string;
+  logo: string;
   url: string;
   description: string;
   responsibilites: string[];
   tech: string[];
 }
 
-export const PORTFOLIO = [
+export const WORKS = [
   {
     slug: 'farmers-feeding-utah-marketplace',
     title: 'Farmers Feeding Utah Marketplace',
@@ -25,9 +26,10 @@ export const PORTFOLIO = [
     tech: [
       'HTML',
       'CSS',
+      'Javascript',
       'React',
-      'styled-components',
       'React Context API',
+      'styled-components',
       'GraphQL',
       'Saleor Framework',
     ],
@@ -41,7 +43,7 @@ export const PORTFOLIO = [
       'AdWorld Conference is the world’s largest online advertising event. The all-in-one advertising event that will bring you closer to leading marketers and brands from the comfort of your home.',
     responsibilites: [
       'Develop UI/UX across all pages',
-      'Implement JAMstack architechture using NextJS and Strapi.',
+      'Implement JAMstack architecture using NextJS and Strapi.',
       'Maintain and support third party integrations and custom built APIs.',
       'Make sure on-page SEO is optimized for better coversions.',
     ],
@@ -73,6 +75,7 @@ export const PORTFOLIO = [
     tech: [
       'HTML',
       'CSS',
+      'Javascript',
       'React',
       'styled-components',
       'Ant Design',
@@ -97,10 +100,11 @@ export const PORTFOLIO = [
     tech: [
       'HTML',
       'CSS',
+      'Javascript',
       'React',
       'styled-components',
       'REST APIs',
       'vBulletin',
     ],
   },
-] as IPortfolio[];
+] as IWork[];

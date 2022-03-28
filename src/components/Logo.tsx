@@ -1,7 +1,7 @@
 import { Box, useColorMode } from '@chakra-ui/react';
 import Image from 'next/image';
 
-function Logo() {
+const Logo: React.FC = () => {
   const { colorMode } = useColorMode();
 
   return (
@@ -18,6 +18,6 @@ function Logo() {
       )}
     </Box>
   );
-}
+};
 
 export default Logo;

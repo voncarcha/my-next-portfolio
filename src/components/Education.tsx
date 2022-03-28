@@ -1,6 +1,6 @@
 import { Box, Text, Heading, Flex } from '@chakra-ui/react';
 
-function Education() {
+const Education: React.FC = () => {
   return (
     <Box mt={5} mb={8}>
       <Heading variant="section-title" mb={6}>
@@ -23,6 +23,6 @@ function Education() {
       </Flex>
     </Box>
   );
-}
+};
 
 export default Education;

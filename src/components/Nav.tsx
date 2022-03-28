@@ -11,14 +11,11 @@ import {
   Text,
   VStack,
   Link as NextLink,
-  Flex,
-  ListIcon,
 } from '@chakra-ui/react';
 import ThemeToggleButton from 'components/ThemeToggleButton';
 import Link from 'next/link';
-import { IoMailSharp } from 'react-icons/io5';
 
-function Nav() {
+const Nav: React.FC = () => {
   return (
     <HStack
       position="fixed"
@@ -33,18 +30,18 @@ function Nav() {
           <IconButton aria-label="Nav button" icon={<HamburgerIcon />} />
         </PopoverTrigger>
         <Portal>
-          <PopoverContent w="100px">
+          <PopoverContent w="150px">
             <PopoverArrow />
             <PopoverBody>
-              <VStack spacing={1}>
+              <VStack spacing={1} >
                 <Link href="/">
                   <a>
                     <Text fontSize="sm">About</Text>
                   </a>
                 </Link>
-                <Link href="/portfolio">
+                <Link href="/works">
                   <a>
-                    <Text fontSize="sm">Portfolio</Text>
+                    <Text fontSize="sm">Works</Text>
                   </a>
                 </Link>
                 <NextLink
@@ -60,6 +57,6 @@ function Nav() {
       </Popover>
     </HStack>
   );
-}
+};
 
 export default Nav;
