@@ -18,7 +18,7 @@ export const WORKS = [
     description:
       'Farmers Feeding Utah Marketplace is an E-commerce/Subscription site that helps local Utah farmers to buy their high-quality and local food products',
     responsibilites: [
-      'Develop e-commerce storefront app using Saleor framework.',
+      'Develop e-commerce storefront app utilizing Saleor framework.',
       'Help maintain e-commerce dashboard for custom built features.',
       'Work closely with backend developers to handle API integrations using GraphQL.',
       'Project planning and involvement in process improvement.',
