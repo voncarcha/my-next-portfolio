@@ -15,6 +15,7 @@ import {
 import NextLink from 'next/link';
 import Image from 'next/image';
 import { IWork } from 'common/constants';
+import Head from 'next/head';
 
 interface Props {
   work: IWork;
@@ -23,6 +24,9 @@ interface Props {
 const Work: React.FC<Props> = ({ work }) => {
   return (
     <Box mb={8}>
+      <Head>
+        <title>Work - {work.title}</title>
+      </Head>
       <Box
         w="100%"
         position="relative"

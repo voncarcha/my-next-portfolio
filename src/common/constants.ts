@@ -43,10 +43,11 @@ export const WORKS = [
     description:
       'AdWorld Conference is the world’s largest online advertising event. The all-in-one advertising event that will bring you closer to leading marketers and brands from the comfort of your home.',
     responsibilites: [
-      'Develop UI/UX across all pages',
+      'Develop UI/UX across all pages.',
       'Implement JAMstack architecture using NextJS and Strapi.',
       'Maintain and support third party integrations and custom built APIs.',
       'Make sure on-page SEO is optimized for better coversions.',
+      'Make sure the website is optimized for both desktop and mobile.',
     ],
     tech: [
       'HTML',
@@ -72,6 +73,7 @@ export const WORKS = [
       'Help maintain and develop conference platform including customer, sponsor, and admin portal.',
       'Maintain and support third party integrations and custom built APIs.',
       'Make sure on-page SEO is optimized for better coversions.',
+      'Make sure the website is optimized for both desktop and mobile.',
     ],
     tech: [
       'HTML',
