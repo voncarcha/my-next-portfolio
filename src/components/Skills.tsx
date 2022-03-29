@@ -17,6 +17,9 @@ const Skills: React.FC = () => {
           Javascript
         </Tag>
         <Tag mr={2} mb={2}>
+          Typescript
+        </Tag>
+        <Tag mr={2} mb={2}>
           React
         </Tag>
         <Tag mr={2} mb={2}>

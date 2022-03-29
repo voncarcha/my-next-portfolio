@@ -27,6 +27,7 @@ export const WORKS = [
       'HTML',
       'CSS',
       'Javascript',
+      'Typescript',
       'React',
       'React Context API',
       'styled-components',
